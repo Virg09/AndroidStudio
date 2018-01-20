@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_vb_layout"
+            android:title="Voorblad"
+            android:icon="@drawable/ic_home_black_24dp"
+        />
+        <item
+            android:id="@+id/nav_col_layout"
+            android:title="Colofon"
+            android:icon="@drawable/ic_description_black_24dp"/>
+        <item
+            android:id="@+id/nav_first_layout"
+            android:title="Inhoudsopgave"
+            android:icon="@drawable/ic_description_black_24dp"/>
+        <item
+            android:id="@+id/nav_second_layout"
+            android:title="Hoofdstuk 1"
+            android:icon="@drawable/ic_description_black_24dp"/>
+        <item
+            android:id="@+id/nav_third_layout"
+            android:title="Hoofdstuk 2"
+            android:icon="@drawable/ic_description_black_24dp"/>
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:title="Hoofdstuk 3"
+            android:icon="@drawable/ic_description_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:title="Hoofdstuk 4"
+            android:icon="@drawable/ic_description_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_disc_layout"
+            android:title="Disclaimer"
+            android:icon="@drawable/ic_description_black_24dp"/>
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/bargraph"
+            android:title="Grafiek"
+            android:icon="@drawable/ic_insert_chart_black_24dp"
+        />
+    </group>
+
+</menu>
+
+
